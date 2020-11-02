@@ -6,14 +6,17 @@ The purpose of this application is to help students visualize magnetic fields. U
 and manipulate magnetic fields in the real world using their smartphone. 
 ## Table of Contents
 - [Features](#Features)
-  - [Dynamic Magnetic Field Calculation](#Dynamic-Magnetic-Field-Calculation)
-  - [2D/3D Static Magnetic Field](#2D/3D-Static-Magnetic-Field)
-- [How to Build](#How-to-Build)
-- [Contact](#Contact)
+  - [Dynamic Magnetic Field Calculation](#dynamic-magnetic-field-calculation)
+  - [Freeze Filings](#freeze-filings)
+  - [2D/3D Static Magnetic Field](#2d/3d-static-magnetic-field)
+- [How to Build](#how-to-build)
+- [Contact](#contact)
 
 # Features
 
 ### Dynamic Magnetic Field Calculation
+
+### Freeze Filings
 
 ### 2D/3D Static Magnetic Field
 
