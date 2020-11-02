@@ -15,6 +15,7 @@ and manipulate magnetic fields in the real world using their smartphone.
 # Features
 
 ### Dynamic Magnetic Field Calculation
+![](Documents/gifs/DynamicFunction.gif)
 
 ### Freeze Filings
 
