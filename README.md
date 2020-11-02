@@ -16,12 +16,12 @@ and manipulate magnetic fields in the real world using their smartphone.
 Using QR markers, the user can freely move the magnet and arrows in the physical world. 
 
 ### Dynamic Magnetic Field Calculation
-![](Documents/gifs/DynamicFunction.gif)
+![](Documents/gifs/DynamicFunction.gif)  
 Arrows representing the magnetic field are updated in realtime, allowing the user to manipulate the field by moving the magnet.
 Multiple magnets can be used at the same time. 
 
 ### Freeze Layer
-![](Documents/gifs/FreezeFunction.gif)
+![](Documents/gifs/FreezeFunction.gif)  
 Arrows can be frozen at any position. This allows for viewing of the magnetic field at different positions in space. 
 
 ### 2D/3D Static Magnetic Field
