@@ -72,5 +72,6 @@ public class ARImageAnchor : MonoBehaviour
       foreach (Renderer r in rs)
         r.enabled = true;
     }
+    
   }
 }

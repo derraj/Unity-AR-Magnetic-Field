@@ -7,7 +7,6 @@ using UnityEngine.XR.ARFoundation;
 public class ImageRecognition : MonoBehaviour
 {
   private ARTrackedImageManager _arTrackedImageManager;
-  GameObject center;
 
   private void Awake()
   {
