@@ -25,8 +25,10 @@ Multiple magnets can be used at the same time.
 Arrows can be frozen at any position. This allows for viewing of the magnetic field at different positions in space. 
 
 ### 2D/3D Static Magnetic Field
-![](Documents/gifs/2DFunction.gif)
-![](Documents/gifs/3DFunction.gif)
+![](Documents/gifs/2DFunction.gif)  
+
+![](Documents/gifs/3DFunction.gif)  
+
 View static 2D and 3D magnetic field representations. 
 
 # How to Build
