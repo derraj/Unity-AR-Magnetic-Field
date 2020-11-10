@@ -17,7 +17,7 @@ public class OverlayButtons : MonoBehaviour
 
   void Start()
   {
-   
+
   }
 
   public void FreezeFilings()
@@ -27,43 +27,28 @@ public class OverlayButtons : MonoBehaviour
     GameObject magnet = GameObject.Find("BarMagnet Dynamic");
     filings.GetComponent<IronManager>().enabled = false;
     GameObject filingsClone = Instantiate(filings);
-    
-    if (!frozen)
-    {
-      foreach (Transform child in filingsClone.transform)
-      {
-        Rb = child.gameObject.GetComponent<Rigidbody>();
-        if (Rb != null)
-        {
-          Rb.constraints = RigidbodyConstraints.FreezeAll;
-          //child.gameObject.GetComponent<FilingMagnitude>().enabled = false;
-        }
 
-      }
-      filingsClone.GetComponent<ARImageAnchor>().enabled = false;
-      filingsClone.transform.parent = magnet.transform;
-      //ChangeButton();
-      //frozen = true;
-    }
-    else
+    foreach (Transform child in filingsClone.transform)
     {
-      foreach (Transform child in filings.transform)
+      Rb = child.gameObject.GetComponent<Rigidbody>();
+      if (Rb != null)
       {
-        Rb = child.gameObject.GetComponent<Rigidbody>();
-        if (Rb != null)
-        {
-          Rb.constraints = 
-            RigidbodyConstraints.FreezePositionX | 
+        Rb.constraints = RigidbodyConstraints.FreezeAll;
+        //child.gameObject.GetComponent<FilingMagnitude>().enabled = false;
+        /*
+        Rb.constraints =
+            RigidbodyConstraints.FreezePositionX |
             RigidbodyConstraints.FreezePositionY |
             RigidbodyConstraints.FreezePositionZ;
-          child.gameObject.GetComponent<FilingMagnitude>().enabled = true;
-        }
-
+        */
+        child.gameObject.GetComponent<FilingMagnitude>().updateMagnitude = false;
       }
-      
-      ChangeButton();
-      frozen = false;
-    }      
+
+    }
+    filingsClone.GetComponent<ARImageAnchor>().enabled = false;
+    filingsClone.transform.parent = magnet.transform;
+    //ChangeButton();
+    //frozen = true;  
   }
   public void ResetFilings()
   {

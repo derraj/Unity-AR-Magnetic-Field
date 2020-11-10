@@ -12,6 +12,7 @@ public class FilingMagnitude : MonoBehaviour
   public Color altColor;
   public bool magnitudeColor = true;
   public bool magnitudeScale = true;
+  public bool updateMagnitude = true;
 
 
   // Start is called before the first frame update
@@ -32,13 +33,14 @@ public class FilingMagnitude : MonoBehaviour
     magnitude = (northMag + southMag) / 2;
     */
 
+    if (updateMagnitude)
+    {
+      northVec = transform.GetChild(0).gameObject.GetComponent<Magnet>().vector;
+      southVec = transform.GetChild(1).gameObject.GetComponent<Magnet>().vector;
+      //magnitude = ((northVec).magnitude + (southVec).magnitude)/2;
+      magnitude = (northVec + southVec).magnitude;
+    }
     
-    northVec = transform.GetChild(0).gameObject.GetComponent<Magnet>().vector; 
-    southVec = transform.GetChild(1).gameObject.GetComponent<Magnet>().vector;
-    //magnitude = ((northVec).magnitude + (southVec).magnitude)/2;
-    magnitude = (northVec + southVec).magnitude;
-
-
     if (magnitudeScale)
     {
       scaleChange = new Vector3(
