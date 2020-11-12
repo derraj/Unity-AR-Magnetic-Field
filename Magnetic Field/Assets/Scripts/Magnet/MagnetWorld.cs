@@ -1,7 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEditor;
+﻿using UnityEngine;
+
 
 public class MagnetWorld : MonoBehaviour
 {
@@ -30,15 +28,6 @@ public class MagnetWorld : MonoBehaviour
     if (magnet1.MagneticPole == magnet2.MagneticPole)
       f = -f;
 
-    // add magnitude to iron filing property
-
-    /*
-    if ((f * r.normalized).magnitude > magnet1.magnitude)
-    {
-        magnet1.magnitude = (f * r.normalized).magnitude;
-    }
-    */
-
     return f * r.normalized;
   }
 
@@ -46,7 +35,6 @@ public class MagnetWorld : MonoBehaviour
   {
     var magnets = FindObjectsOfType<Magnet>();
     var magCount = magnets.Length;
-    //Debug.Log(magnets.Length);
 
     for (int i = 0; i < magCount; i++)
     {
@@ -96,7 +84,7 @@ public class MagnetWorld : MonoBehaviour
       }
   }
   //  This code is only meant for use in the editor. It draws a circle to better visualize the
-  //  magnetic force of the pole. Leave it commented when building. 
+  //  magnetic force of the pole. Leave it commented when building, or the build will fail. 
   /*
   void OnDrawGizmos()
   {

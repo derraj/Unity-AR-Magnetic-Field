@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-using UnityEngine.Events;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
 
+// https://forum.unity.com/threads/ar-multiple-image-tracking-multiple-objects.846901/
 public class ARImageAnchor : MonoBehaviour
 {
   public string ReferenceImageName;
@@ -34,6 +34,7 @@ public class ARImageAnchor : MonoBehaviour
 
   private void OnTrackedImagesChanged(ARTrackedImagesChangedEventArgs e)
   {
+    // when a tracked image is detected
     foreach (var trackedImage in e.added)
     {
       Debug.Log($"Tracked image detected: {trackedImage.referenceImage.name} with size: {trackedImage.size}");
@@ -53,12 +54,12 @@ public class ARImageAnchor : MonoBehaviour
       return;
     }
 
+    // change the transform of the object to match the transform of the tracked image
     if (trackedImage.trackingState != TrackingState.None)
     {
       var trackedImageTransform = trackedImage.transform;
       transform.SetPositionAndRotation(trackedImageTransform.position, trackedImageTransform.rotation);
     }
-
 
     // If the tracked image is off screen, disable the renderer
     Renderer[] rs = GetComponentsInChildren<Renderer>();
