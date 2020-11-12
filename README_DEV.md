@@ -12,7 +12,9 @@ https://www.youtube.com/watch?v=zc8ac_qUXQY&ab_channel=Brackeys
 
 #### Adding tracked images and tracked objects
 Single Image Tracking: https://www.youtube.com/watch?v=MdeuA0FITS0&ab_channel=DevEnabled
+
 Multiple Image Tracking: https://www.youtube.com/watch?v=I9j3MD7gS5Y&ab_channel=DevEnabled
+
 Tracked Object Scaling (not yet implemented): https://www.youtube.com/watch?v=bhEy3XSzLP4
 
 
