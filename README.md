@@ -55,4 +55,3 @@ View static 2D and 3D magnetic field representations.
 ## Contact
 - Jarred Mahinay (mahinay@ualberta.ca)
 
-   [dill]: 
