@@ -1,13 +1,13 @@
 ## Table of Contents
-- [Magnetic Field AR](#magnetic-field-ar)
-- [Features](#features)
-    + [Dynamic Magnetic Field Calculation](#dynamic-magnetic-field-calculation)
-    + [Freeze Layer](#freeze-layer)
-    + [2D/3D Static Magnetic Field](#2d-3d-static-magnetic-field)
-- [How to Build](#how-to-build)
-    + [Environment](#environment)
-    + [Procedure](#procedure)
-  * [Contact](#contact)
+- [Magnetic Field AR](#markdown-header-magnetic-field-ar)
+- [Features](#markdown-header-features)
+    + [Dynamic Magnetic Field Calculation](#markdown-header-dynamic-magnetic-field-calculation)
+    + [Freeze Layer](#markdown-header-freeze-layer)
+    + [2D/3D Static Magnetic Field](#markdown-header-2d-3d-static-magnetic-field)
+- [How to Build](#markdown-header-how-to-build)
+    + [Environment](#markdown-header-environment)
+    + [Procedure](#markdown-header-procedure)
+  * [Contact](#markdown-header-contact)
 
 # Magnetic Field AR
 Magnetic Field AR is a mobile application built off of the magnetic simulation created by 'jscoobysnack':
