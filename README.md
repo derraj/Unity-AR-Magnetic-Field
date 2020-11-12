@@ -1,16 +1,20 @@
+## Table of Contents
+- [Magnetic Field AR](#magnetic-field-ar)
+- [Features](#features)
+    + [Dynamic Magnetic Field Calculation](#dynamic-magnetic-field-calculation)
+    + [Freeze Layer](#freeze-layer)
+    + [2D/3D Static Magnetic Field](#2d-3d-static-magnetic-field)
+- [How to Build](#how-to-build)
+    + [Environment](#environment)
+    + [Procedure](#procedure)
+  * [Contact](#contact)
+
 # Magnetic Field AR
 Magnetic Field AR is a mobile application built off of the magnetic simulation created by 'jscoobysnack':
 https://github.com/jscoobysnack/UnityMagnets
 
 The purpose of this application is to help students visualize magnetic fields. Using AR Foundation within Unity, students can view
 and manipulate magnetic fields in the real world using their smartphone. 
-## Table of Contents
-- [Features](#Features)
-  - [Dynamic Magnetic Field Calculation](#dynamic-magnetic-field-calculation)
-  - [Freeze Filings](#freeze-filings)
-  - [2D/3D Static Magnetic Field](#2d/3d-static-magnetic-field)
-- [How to Build](#how-to-build)
-- [Contact](#contact)
 
 # Features
 Using QR markers, the user can freely move the magnet and arrows in the physical world. 
