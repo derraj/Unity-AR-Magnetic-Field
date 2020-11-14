@@ -13,7 +13,7 @@
 Magnetic Field AR is a free educational application built off of the magnetic simulation created by 'jscoobysnack':
 https://github.com/jscoobysnack/UnityMagnets
 
-The purpose of this app is to help physics students visualize magnetic fields. Using AR Foundation within Unity, students can project magnetic fields on to real world with their smartphone. Image tracking allows users to move the magnets in the virtual space and view them from all directions. 
+The purpose of this app is to help physics students visualize magnetic fields. Using AR Foundation within Unity, students can project magnetic fields on to real world with their smartphone. Image tracking allows users to move magnets in the virtual space and view them from all directions. 
 
 
 # Features

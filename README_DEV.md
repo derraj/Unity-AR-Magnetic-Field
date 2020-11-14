@@ -24,9 +24,27 @@ iOS: https://youtu.be/eu_eG0eTFlA
 
 #### Creating new Filing objects
 
-All created Filings should have the same structure as ArrowFiling/IronFiling. This includes:
+All created Filings should have the same structure as the ArrowFiling and IronFiling objects. This includes:
 
-1. A North Object with a 'Magnet' script.
+1. A North object with a 'Magnet' script.
+
+2. A South object with a 'Magnet' script.
+
+3. A group of mesh rendering objects
+
+The 'North' object should be placed at the northmost point of the object, and 'South' at the south. Modifying the Filing's Rigidbody affects the physics of the Object:
+- Mass: Increasing the mass means that more force is required to move the object
+- Angular Drag: The smaller the number, the less drag that is applied to the rotational movement. Decreasing the number may increase arrow rotation speed, but if the number is too low the filing will appear shaky.
+- Constraints: 
+* Freeze Position: Freezes the position of the filing in space, though the filing is still able to move when attached to a tracked image.
+* Freeze Rotation: Freezes the rotation of the filing. The physics engine still calculates the rotation of the object even when the rotation is frozen, so it is better to delete the rigidbody entirely when you want to freeze the filing. 
+
+#### Creating new Magnet objects
+
+Magnets should have the same structure as the BarMagnet objects. This includes:
+1. A North object with a 'Magnet' script.
+2. A South object with a 'Magnet' script.
+3. A center object. The 'IronManager' script will instantiate the filings around this object. The filings sometimes don't instantiate equally around the center, so the center will have to be manually offset to account for this. 
 
 
 ## Prefabs/Objects
