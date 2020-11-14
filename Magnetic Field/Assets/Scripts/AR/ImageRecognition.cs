@@ -22,6 +22,7 @@ public class ImageRecognition : MonoBehaviour
 
   public void OnImageChanged(ARTrackedImagesChangedEventArgs args)
   {
+
   }
 
 }

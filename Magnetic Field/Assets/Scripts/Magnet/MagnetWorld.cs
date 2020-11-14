@@ -74,7 +74,7 @@ public class MagnetWorld : MonoBehaviour
       {
         accF1 = accF1.normalized * MaxForce;
       }
-      rb1.AddForceAtPosition(accF1, m1.transform.position);
+      rb1.AddForceAtPosition(accF1, m1.transform.position, ForceMode.VelocityChange);
 
       // store the force vector in the magnet, so we can calculate magnitude
       // rigidbody.velocity.magnitude doesn't work because our objects position is locked

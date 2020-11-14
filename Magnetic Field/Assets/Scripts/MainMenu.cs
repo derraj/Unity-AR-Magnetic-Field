@@ -3,18 +3,13 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-  public void Start2DStatic()
+  public void StartStatic()
   {
-    SceneManager.LoadScene("Static 2D");
+    SceneManager.LoadScene("Static");
   }
 
-  public void Start3DStatic()
+  public void StartDynamic()
   {
-    SceneManager.LoadScene("Static 3D");
-  }
-
-  public void Start2DDynamic()
-  {
-    SceneManager.LoadScene("Dynamic 2D");
+    SceneManager.LoadScene("Dynamic");
   }
 }
