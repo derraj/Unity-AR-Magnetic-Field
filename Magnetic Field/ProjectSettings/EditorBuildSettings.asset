@@ -14,9 +14,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Static.unity
     guid: 8a6788ea49df6884e9e761ad205ca6dc
-  - enabled: 1
-    path: Assets/Scenes/Static 3D.unity
-    guid: a0346af0c7d01f5448fa8af7397775de
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 101ba105fefbe8c4ea250bd26efc7fc7, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 0b55678a613532e44b5b75b28a1bdd55, type: 2}

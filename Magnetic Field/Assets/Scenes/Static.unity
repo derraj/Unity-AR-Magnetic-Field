@@ -408,6 +408,10 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9049589012547414957, guid: e37f7f707f9fa35489747c28b718d5e9, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9049589012547414959, guid: e37f7f707f9fa35489747c28b718d5e9, type: 3}
       propertyPath: m_Name
       value: Canvas
