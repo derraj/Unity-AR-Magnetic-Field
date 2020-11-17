@@ -120,15 +120,21 @@ This script handles all the physics calculations. Using all the magnets in the s
 #### OverlayButtons
 Handles the freeze, reset, and home buttons.
 Methods:
+
 - FreezeFilings(): Creates a clone of the filings, and freezes it's position in relation to the magnet.
+
 - MenuScene(): Goes back to the menu
+
 - ResetFilings(): Deletes all frozen filings in the scene
+
 
 
 ## Unity Project Settings
 #### Time
 Changing these parameters can improve the speed at which the filings rotate, but at the cost of performance. If users complain of low framerate, reduce these parameters.
+
 - Fixed Timestep: The interval at which physics and FixedUpdate() are called. 
+
 - Time Scale: The speed of which time progresses. 
 
 
