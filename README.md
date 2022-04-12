@@ -23,21 +23,21 @@ Arrows are used to represent the magnetic field. Using force vectors, the arrows
 Arrows  are updated in realtime, allowing the user to manipulate the field by moving the magnet.
 Multiple magnets can be used to manipulate the magnetic field at the same time. 
 
-![](https://drive.google.com/file/d/15a2RhxltAnkobGXvEYQF2oOASlWcXnc2/view?usp=sharing)  
+![](https://drive.google.com/uc?export=view&id=15a2RhxltAnkobGXvEYQF2oOASlWcXnc2)  
 
 
 ### Freeze Layer
 A layer of arrows can be frozen in space for easier viewing from all directions. 
 
-![](Documents/gifs/FreezeFunction.gif)  
+![](https://drive.google.com/uc?export=view&id=1M8mCxPHN6bY1UmNAVL1ELEfpVHSr3sUN)  
 
 
 ### 2D/3D Static Magnetic Field
 View static 2D and 3D magnetic field representations. 
 
-![](Documents/gifs/2DFunction.gif)  
+![](https://drive.google.com/uc?export=view&id=1vBbeJRXMY4cFlLGGaCB4XQzIEFObMNFt)  
 
-![](Documents/gifs/3DFunction.gif)  
+![](https://drive.google.com/uc?export=view&id=1389Rq5HtBQJYhZkIwCo-_kblsEOyG24f)  
 
 # How to Build
 ### Environment
