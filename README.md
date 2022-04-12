@@ -23,7 +23,7 @@ Arrows are used to represent the magnetic field. Using force vectors, the arrows
 Arrows  are updated in realtime, allowing the user to manipulate the field by moving the magnet.
 Multiple magnets can be used to manipulate the magnetic field at the same time. 
 
-![](Documents/gifs/DynamicFunction.gif)  
+![](https://drive.google.com/file/d/15a2RhxltAnkobGXvEYQF2oOASlWcXnc2/view?usp=sharing)  
 
 
 ### Freeze Layer
