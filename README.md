@@ -1,13 +1,3 @@
-## Table of Contents
-- [Magnetic Field AR](#markdown-header-magnetic-field-ar)
-- [Features](#markdown-header-features)
-    + [Dynamic Magnetic Field Calculation](#markdown-header-dynamic-magnetic-field-calculation)
-    + [Freeze Layer](#markdown-header-freeze-layer)
-    + [2D/3D Static Magnetic Field](#markdown-header-2d-3d-static-magnetic-field)
-- [How to Build](#markdown-header-how-to-build)
-    + [Environment](#markdown-header-environment)
-    + [Procedure](#markdown-header-procedure)
-  * [Contact](#markdown-header-contact)
 
 # Magnetic Field AR
 Magnetic Field AR is a free educational application built off of the magnetic simulation created by 'jscoobysnack':
